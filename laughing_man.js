@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         let square = document.createElement('img');
         square.src = 'laughing_man.jpg';
         square.alt = 'Catch the laughing man!';
-        square.class = 'square';
+        square.className = 'square';
         box.appendChild(square);
     }
 });

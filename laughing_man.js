@@ -14,6 +14,15 @@ document.addEventListener('DOMContentLoaded', ()=>{
         square.src = 'laughing_man.jpg';
         square.alt = 'Catch the laughing man!';
         square.className = 'square';
+       
+        square.addEventListener('mouseover', ()=>{
+            square.src = 'Orochimaru.jpg';
+        });
+        
+        square.addEventListener('mouseout', ()=>{
+            square.src = 'laughing_man.jpg';
+        });
+
         box.appendChild(square);
     }
     

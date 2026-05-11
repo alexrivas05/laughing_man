@@ -32,9 +32,13 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
             if(x<=0 || x>=maxX){
                 dx *=-1;
+                box.style.borderColor = getColor();
+                element.style.borderColor = getColor();
             }
             if(y<=0 || y>=maxY){
                 dy *=-1;
+                box.style.borderColor = getColor();
+                element.style.borderColor = getColor();
             }
     
             x+=dx;

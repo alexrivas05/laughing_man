@@ -6,6 +6,10 @@ document.addEventListener('DOMContentLoaded', ()=>{
     document.querySelector('#square').addEventListener('click', ()=>{
         alert('OMG YOU CLICKED ME!')
     });
+    
+    document.querySelector('#square').addEventListener('mouseover', (e)=>{
+        e.currentTarget.style.backgroundColor = getColor();
+    });
 
     let box = document.querySelector('#box');
 
